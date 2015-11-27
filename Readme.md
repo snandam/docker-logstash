@@ -64,7 +64,7 @@ docker run -it --rm -v "$PWD/config-dir":/config-dir logstash logstash -f /confi
 ###### Notes/Reference:
 * https://grokdebug.herokuapp.com/
 
-#### Exercise 6: Use the data/h1b_testdata file and extract the data into specific columns as applies
+##### Exercise 6: Use the data/h1b_testdata file and extract the data into specific columns as applies
 ```sh
 docker run -it --rm -v "$PWD/rspec":/rspec gunmetalz/logstash:2.1 rspec /rspec/logstash-rspec-6.rb
 
