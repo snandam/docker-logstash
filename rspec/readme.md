@@ -4,3 +4,6 @@
 docker build  -t="gunmetalz/logstash:2.1" .
 docker push
 ```
+
+###### Docker hub
+https://hub.docker.com/r/gunmetalz/logstash/
